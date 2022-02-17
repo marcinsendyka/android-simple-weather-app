@@ -12,7 +12,6 @@ import pl.marcinsendyka.exampleweathermap.openweather.OpenWeatherMapWeatherProvi
 public class ApplicationContext {
 
     public static OpenWeatherMapWeatherProvider openWeatherMapWeatherProvider() {
-//        return new OpenWeatherMapWeatherProvider(openWeatherMapClient(), "3275b988d94fde32c7aadbd2e4daf21c");
         return new OpenWeatherMapWeatherProvider(openWeatherMapClient(), BuildConfig.API_KEY);
     }
 
