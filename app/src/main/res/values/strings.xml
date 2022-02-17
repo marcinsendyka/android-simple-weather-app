@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ExampleWeatherMap</string>
+    <string name="action_settings">Settings</string>
+    <string name="select_city_fragment_label">Weather application</string>
+    <string name="weather_data_fragment_label">Weather for selected city</string>
+    <string name="error_fragment_label">Error</string>
+    <string name="next">Show weather</string>
+    <string name="previous">Back to city selection</string>
+
+    <string name="provide_name_label">Provide city name</string>
+    <string name="temperature_label">Temperature</string>
+    <string name="city_label">City</string>
+    <string name="date_label">Date</string>
+    <string name="loading_label">Loading</string>
+    <string name="invalid_city_error_message">Invalid city.</string>
+    <string name="error_fetching_label">Failed to get weather data. Please try again.</string>
+</resources>
