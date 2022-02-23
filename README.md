@@ -1,6 +1,8 @@
 ### Building
 
-Put correct APIKEY value in `build.gradle`
+Put correct Openweather api key as APIKEY value in `build.gradle`.
+
+OpenWeatherMap is free weather service, to create api key go to https://openweathermap.org/.
 
 ```bash
         buildConfigField "String", "API_KEY", "\"" + "abcd" + "\""
